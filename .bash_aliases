@@ -12,8 +12,8 @@ du1gs() { du1g | sort -n; }
 du1ms() { du1m | sort -n; }
 la() { ls -a; }
 lal() { ls -al; }
-ll() { ls -al; }
-l.() { ls -d .*; }
+lll() { ls -al; }
+l() { ls -d .*; }
 q() { exit; }
 :q() { exit; }
 ZZ() { exit; }
