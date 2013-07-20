@@ -11,10 +11,10 @@ du1g() { du1 | grep G; }
 du1m() { du1 | grep M; }
 du1gs() { du1g | sort -n; }
 du1ms() { du1m | sort -n; }
-la() { ls -a; }
+#la() { ls -a; }
 lal() { ls -al; }
 lll() { ls -al; }
-l() { ls -d .*; }
+#l() { ls -d .*; }
 q() { exit; }
 :q() { exit; }
 ZZ() { exit; }
