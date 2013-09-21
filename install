@@ -6,5 +6,6 @@ for f in $dotfiles; do
     ln -sf dotfiles/$f;
 done;
 # the command below will sometime lock up during automated deployments
+# aptitude install exuberant-ctags
 #  git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 #vim +BundleInstall +qall &>/dev/null
